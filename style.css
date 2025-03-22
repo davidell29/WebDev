@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,600;1,600&display=swap');
 
 body {
-  background: linear-gradient(to right, #141414, #6d5174);
+  background: linear-gradient(to right, #17BEBB, #97fffd);
   height: 100vh;
   margin: 0;
 }
@@ -15,7 +15,7 @@ body {
 }
 
 .announcement-bar {
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background: linear-gradient(to right, #E4572E, #e78669);
     padding: 4px;
     text-align: center;
     font-size: 15px;
@@ -24,7 +24,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    color: black;
+    color: rgb(255, 255, 255);
     position: fixed; /* Make the announcement bar stay fixed while scrolling */
     top: 0; /* Position it at the top of the page */
     width: 100%; /* Make it span the full width of the page */
@@ -47,7 +47,7 @@ body {
     justify-content: space-between; /* Space out elements */
     align-items: center; /* Vertically center the items */
     padding: 10px 20px;
-    background-color: #9bb8ac; /* Dark background color */
+    background-color: #2E282A; /* Dark background color */
     position: fixed; /* Make the navbar stay fixed while scrolling */
     width: 100%; /* Make it span the full width of the page */
     z-index: 1000; /* Ensure it stays above other content */
@@ -82,7 +82,7 @@ body {
 }
 
 .nav-link:hover {
-    background-color: #6d5174; /* Green background on hover */
+    background-color: #E4572E; /* Green background on hover */
     color: white;
 }
 
@@ -95,7 +95,7 @@ body {
 }
 
 .icons a:hover {
-    color: #6d5174; /* Change icon color on hover */
+    color: #E4572E; /* Change icon color on hover */
 }
 
 /* Style for the section */
@@ -121,7 +121,7 @@ body {
 .home h1 {
   font-size: 50px;
   margin-bottom: 15px;
-  background: linear-gradient(to right, #ffffff, #4e4e4e); /* Gradient colors */
+  background: #2E282A; /* Gradient colors */
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -133,7 +133,7 @@ body {
   font-size: 19px;
   line-height: 1.6;
   margin-bottom: 20px;
-  background: linear-gradient(to right, #ff7350, #feb47b); /* Gradient colors */
+  background: #2E282A; /* Gradient colors */
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -141,7 +141,7 @@ body {
 
 /* Button Styling */
 .home .btn {
-  background-color: #6d5174; /* Red button */
+  background-color: #14a5a3; /* Red button */
   color: white;
   border: none;
   padding: 12px 25px;
@@ -152,6 +152,94 @@ body {
 }
 
 .home .btn:hover {
-  background-color: #58405e; /* Darker red on hover */
+  background-color: #ff7350; /* Darker red on hover */
 }
 
+.img-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-placeholder img {
+  max-width: 100%; /* Ensure the image fits within the container */
+  height: auto; /* Maintain aspect ratio */
+  border: 2px solid #ff7350; /* Add a border to the image */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.img-placeholder {
+  display: flex;
+  justify-content: flex-end; /* Align image to the right */
+  align-items: center;
+   /* Allow the image placeholder to take up available space */
+}
+
+.img-placeholder img {
+  max-width: 100%; /* Ensure the image fits within the container */
+  height: auto; /* Maintain aspect ratio */
+  border: 2px solid #ff7350; /* Add a border to the image */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+#about {
+  font-family: libre franklin;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-evenly; /* Align content to the left and image to the right */
+  align-items: center; /* Vertically center the content */
+  height: 100vh; /* Full viewport height */
+  padding: 0 20px;
+  background: linear-gradient(to right, #FFC914, #ffdd6d);
+}
+
+.about .about-me{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;/* Add space from top */
+  margin-bottom: auto; /* Add space below */
+  font-size: 2.5em; /* Make text larger */
+  color: #2E282A; /* Dark color for better contrast */
+  
+}
+
+/* Content inside the section */
+.about .content {
+  max-width: 700px; /* Set a max width for better readability */
+  padding: 10px;
+  margin: 20px;
+  padding-top: 1px;
+  background: linear-gradient(to right, #17BEBB, #54fffc);
+  border: 2px solid #ff7350;
+  border-radius: 10px;
+}
+
+.about p {
+  font-size: 19px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  background: #2E282A; /* Gradient colors */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gap {
+  background: linear-gradient(to right, #76B041, #b9f087);
+  text-align: center;
+  padding: 65px;
+  max-width: auto;
+}
+
+/* Style the footer */
+.footer {
+  background: linear-gradient(to right, #E4572E, #e78669);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  z-index: 1001;
+}
