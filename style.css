@@ -218,7 +218,7 @@ body {
 }
 
 .about p {
-  font-size: 19px;
+  font-size: 21px;
   line-height: 1.6;
   margin-bottom: 20px;
   background: #2E282A; /* Gradient colors */
@@ -239,6 +239,7 @@ body {
   background: linear-gradient(to right, #E4572E, #e78669);
   color: white;
   text-align: center;
+  font-size: 17px;
   padding: 10px;
   position: relative;
   bottom: 0;
