@@ -122,6 +122,7 @@ body {
   font-size: 50px;
   margin-bottom: 15px;
   background: #2E282A; /* Gradient colors */
+  text-shadow: 2px 4px 100px rgb(255, 255, 255);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -186,9 +187,9 @@ body {
   font-family: libre franklin;
   font-weight: 600;
   display: flex;
-  justify-content: space-evenly; /* Align content to the left and image to the right */
+  justify-content: center; /* Align content to the left and image to the right */
   align-items: center; /* Vertically center the content */
-  height: 100vh; /* Full viewport height */
+  height: 80vh; /* Full viewport height */
   padding: 0 20px;
   background: linear-gradient(to right, #FFC914, #ffdd6d);
 }
@@ -197,10 +198,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 140px;/* Add space from top */
+  margin-top: 70px;/* Add space from top */
   margin-bottom: auto; /* Add space below */
   font-size: 2.5em; /* Make text larger */
   color: #2E282A; /* Dark color for better contrast */
+  text-shadow: 2px 2px 3px rgb(255, 255, 255);  /* Add a shadow effect */
   
 }
 
@@ -210,8 +212,8 @@ body {
   padding: 10px;
   margin: 20px;
   padding-top: 1px;
-  background: linear-gradient(to right, #17BEBB, #54fffc);
-  border: 2px solid #ff7350;
+  background: linear-gradient(to right, #17BEBB, #97fffd);
+  border: 2px solid #ff7350; /* Add a border to the image */
   border-radius: 10px;
 }
 
@@ -242,4 +244,16 @@ body {
   bottom: 0;
   width: 100%;
   z-index: 1001;
+}
+
+.footer .content h1 a {
+  color: white;
+  font-size: 25px;
+  margin: 2px 10px;
+  text-decoration: none;
+}
+
+/* Add hover effect (optional) */
+.footer .content h1 a:hover {
+  color: #E4572E;
 }
