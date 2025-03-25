@@ -68,7 +68,7 @@ body {
     justify-content: center; /* Center the links */
     flex-grow: 1; /* Allow the nav-links to take up available space */
     gap: auto; /* Space out the links */
-    margin-left: 20px; /* Add some space to the left */
+    margin-left: auto; /* Add some space to the left */
     font-size: 20px;
 }
 
@@ -84,18 +84,6 @@ body {
 .nav-link:hover {
     background-color: #E4572E; /* Green background on hover */
     color: white;
-}
-
-/* Style for the icons (Cart + Contact) */
-.icons a {
-    color: white;
-    font-size: 20px;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-.icons a:hover {
-    color: #E4572E; /* Change icon color on hover */
 }
 
 /* Style for the section */
